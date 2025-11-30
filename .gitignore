@@ -1,0 +1,13 @@
+# Ignore PDFs and text files, but keep README.md
+*.pdf
+*.txt
+!README.md
+
+# Common build/artifact ignores
+*.exe
+*.obj
+*.o
+*.dll
+*.log
+__pycache__/
+.DS_Store
