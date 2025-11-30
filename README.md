@@ -22,7 +22,7 @@ You need the NVIDIA CUDA Toolkit and a host MSVC compiler installed (Visual Stud
 Option A — Developer Command Prompt for Visual Studio (recommended):
 
 ```powershell
-cd '<WORKSPACE_PATH>\Assignment5'
+cd '<WORKSPACE_PATH>'
 nvcc -o pAverage.exe pAverage.cu
 ```
 
@@ -30,7 +30,7 @@ Option B — PowerShell with Visual Studio environment initialized (adjust path 
 
 ```powershell
 & 'C:\Path\To\VisualStudio\vcvars64.bat';
-cd '<WORKSPACE_PATH>\Assignment5';
+cd '<WORKSPACE_PATH>';
 nvcc -o pAverage.exe pAverage.cu
 ```
 
@@ -63,13 +63,9 @@ Run the program with an input file and output file path:
 - You can tune kernel launch parameters in `pAverage.cu` (change `threads` and `blocks` values) to experiment with occupancy and performance.
 - Consider adding CUDA error-check macros around `cudaMalloc`, `cudaMemcpy`, and kernel launches to get clearer runtime diagnostics.
 
-## Suggested Repository Names
+## Notes on Repository Naming
 
-- `CudaConvoLab` (recommended)
-- `ParallelAverager`
-- `MaskedAverage-CUDA`
-- `CudaMovingAverage`
-- `pAverage-Assignment5`
+The repository currently uses the name shown at the top. If you prefer a different name, rename the repo on GitHub or create a new repo and push the code there.
 
 ## License
 
