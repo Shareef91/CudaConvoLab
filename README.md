@@ -72,4 +72,4 @@ The repository currently uses the name shown at the top. If you prefer a differe
 MIT License — feel free to adapt for your coursework. Include your own name and institution if required.
 
 ---
-Created for an Assignment 5 CUDA exercise — enjoy experimenting with parallel convolution-like kernels!
+Contributions welcome — feel free to open issues or submit pull requests. Enjoy experimenting with parallel convolution-like kernels!
